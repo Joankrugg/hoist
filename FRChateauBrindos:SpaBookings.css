@@ -1,0 +1,76 @@
+/*
+trois approches possibles
+1. utiliser un breakpoint de type @media screen and (max-width: 768px) devant chacun de ces DOM elements
+2. éditer uniquement les attributes selectors suivants
+3. éditer les attributes selectors suivants sur le reste du setup mais le publier sur une autre url type (smart/touch)
+*/
+@media screen and (max-width: 768px){
+  .main{
+    min-height: 1680px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .wzdTypeOfTreatment{
+    height: 1200px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .scroll{
+    max-height: 1200px;
+    min-height: 1200px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  td{
+    padding:  40px 0px;
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .wzdTreatment{
+    height: 1200px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .lblHeader{
+    font-size:  30px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .wizardTitle{
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  input [type="submit" i]{
+    width: 160px;
+    height: 45px;
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .spaBookingsHeader{
+    height: 34px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .wzdTreatmentInfo{
+    height: 1200px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .treatmentInformation{
+    margin-top:  40px;
+    font-size:  24px;
+  }
+}
